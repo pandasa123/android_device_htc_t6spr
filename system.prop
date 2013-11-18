@@ -1,0 +1,8 @@
+# system.prop for t6spr
+#
+
+rild.libargs=-d /dev/smd0
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+ro.vendor.extension_library=/system/lib/libqc-opt.so
+ro.telephony.default_network=8
+telephony.lteOnCDMADevice=1
