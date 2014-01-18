@@ -20,8 +20,5 @@ $(call inherit-product-if-exists, vendor/htc/t6spr/t6spr-vendor.mk)
 # overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/t6spr/overlay
 
-# common overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/t6-common/overlay-cdma
-
 # Inherit from t6-common
 $(call inherit-product, device/htc/t6-common/t6-common.mk)
