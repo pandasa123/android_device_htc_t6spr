@@ -1,1 +1,1 @@
-add_lunch_combo cm_t6spr-eng
+add_lunch_combo slim_t6spr-eng
